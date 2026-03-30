@@ -24,6 +24,56 @@
 3. 在查看示例代码之前，尝试自己编写代码
 4. 运行并实验代码
 
+## 项目结构
+
+```
+android-view-tutorial/
+├── app/                           # 可运行的 Android 项目
+│   ├── build.gradle.kts           # app 模块构建配置
+│   ├── proguard-rules.pro         # ProGuard 混淆规则
+│   └── src/main/
+│       ├── AndroidManifest.xml    # Android 清单文件
+│       ├── java/.../viewtutorial/ # 所有课程的代码（可运行）
+│       │   ├── MainActivity.kt    # 主 Activity
+│       │   └── *.kt               # 各课程的自定义 View
+│       └── res/                   # 资源文件
+│           ├── layout/            # 布局文件
+│           └── values/            # 字符串、颜色、主题等
+│
+├── 01-draw-line/                  # 第一课：画一条线
+│   ├── README.md                  # 课程说明
+│   └── LineView.kt                # 示例代码（无包名，可直接复制）
+│
+├── 02-draw-shapes/                # 第二课：绘制形状
+│   ├── README.md
+│   └── ShapesView.kt
+│
+├── ...                            # 其他课程文件夹
+│
+├── build.gradle.kts               # 项目根构建配置
+├── settings.gradle.kts            # 项目设置（模块、仓库等）
+├── gradle.properties              # Gradle 属性配置
+├── gradle/                        # Gradle Wrapper 文件
+├── .gitignore                     # Git 忽略配置
+├── LICENSE                        # 许可证
+└── README.md                      # 本文件
+```
+
+### 文件夹说明
+
+| 文件夹 | 作用 |
+|--------|------|
+| `app/` | 完整的 Android 项目，可导入 Android Studio 直接运行 |
+| `01-xxx/` | 各课程文件夹，包含 README 和示例代码 |
+| `gradle/` | Gradle Wrapper，确保项目使用统一的 Gradle 版本 |
+| `.claude/` | Claude Code 配置和记忆文件 |
+
+### 课程文件夹内容
+
+每课文件夹包含：
+- `README.md` - 课程目标、核心概念、练习任务
+- `*.kt` - 示例代码（不含包名，可直接复制到你的项目）
+
 ## 学习路线
 
 我们将逐步构建 View 系统，每节课标注预计时间：
