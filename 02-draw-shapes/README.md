@@ -2,6 +2,13 @@
 
 预计时间：~8 分钟
 
+<div align="center">
+
+如果这个项目对你有帮助，请点个 **Star** 支持一下 ⭐
+[https://github.com/nexa1024/android-view-tutorial](https://github.com/nexa1024/android-view-tutorial)
+
+</div>
+
 ## 目标
 
 学会在 Canvas 上绘制矩形、圆形和椭圆。

@@ -2,6 +2,13 @@
 
 从零开始构建 Android View 系统！
 
+<div align="center">
+
+如果这个项目对你有帮助，请点个 **Star** 支持一下 ⭐
+[https://github.com/nexa1024/android-view-tutorial](https://github.com/nexa1024/android-view-tutorial)
+
+</div>
+
 我一直想从最底层学习 Android View 系统是如何工作的。大多数教程只是教你如何继承现有 View 或创建简单的自定义视图，但是：
 
 - 从未从最基础的地方开始
@@ -79,8 +86,8 @@ android-view-tutorial/
 我们将逐步构建 View 系统，每节课标注预计时间：
 
 ### 第一阶段：绘制基础 (20-25分钟)
-- [ ] 01-draw-line: 在 Canvas 上画一条简单的线 `~5min`
-- [ ] 02-draw-shapes: 绘制基本形状（矩形、圆形、椭圆）`~8min`
+- [x] 01-draw-line: 在 Canvas 上画一条简单的线 `~5min`
+- [x] 02-draw-shapes: 绘制基本形状（矩形、圆形、椭圆）`~8min`
 - [ ] 03-draw-text: 在 Canvas 上绘制文字 `~8min`
 
 ### 第二阶段：自定义 View (40-50分钟)

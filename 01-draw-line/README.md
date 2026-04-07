@@ -2,6 +2,13 @@
 
 预计时间：~5 分钟
 
+<div align="center">
+
+如果这个项目对你有帮助，请点个 **Star** 支持一下 ⭐
+[https://github.com/nexa1024/android-view-tutorial](https://github.com/nexa1024/android-view-tutorial)
+
+</div>
+
 ## 目标
 
 学会使用 Canvas.drawLine() 在屏幕上绘制一条线。
