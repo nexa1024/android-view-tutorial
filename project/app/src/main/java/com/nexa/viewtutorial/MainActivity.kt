@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<MaterialButton>(R.id.btnLesson01).setOnClickListener {
             startActivity(Intent(this, LineActivity::class.java))
         }
+
+        findViewById<MaterialButton>(R.id.btnLesson02).setOnClickListener {
+            startActivity(Intent(this, ShapesActivity::class.java))
+        }
     }
 }

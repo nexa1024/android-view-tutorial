@@ -23,6 +23,9 @@
         <activity
             android:name=".LineActivity"
             android:exported="false" />
+        <activity
+            android:name=".ShapesActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
