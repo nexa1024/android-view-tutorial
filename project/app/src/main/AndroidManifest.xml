@@ -21,10 +21,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LineActivity"
+            android:name=".activities.LineActivity"
             android:exported="false" />
         <activity
-            android:name=".ShapesActivity"
+            android:name=".activities.ShapesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TextActivity"
             android:exported="false" />
     </application>
 

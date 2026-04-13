@@ -1,4 +1,4 @@
-package com.nexa.viewtutorial
+package com.nexa.viewtutorial.custom_views
 
 import android.content.Context
 import android.graphics.Canvas

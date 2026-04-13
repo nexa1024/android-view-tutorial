@@ -1,11 +1,12 @@
-package com.nexa.viewtutorial
+package com.nexa.viewtutorial.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.nexa.viewtutorial.R
 
-class LineActivity : AppCompatActivity() {
+class ShapesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_line)
+        setContentView(R.layout.activity_shapes)
     }
 }

@@ -7,6 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.button.MaterialButton
+import com.nexa.viewtutorial.activities.LineActivity
+import com.nexa.viewtutorial.activities.ShapesActivity
+import com.nexa.viewtutorial.activities.TextActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<MaterialButton>(R.id.btnLesson02).setOnClickListener {
             startActivity(Intent(this, ShapesActivity::class.java))
+        }
+
+        findViewById<MaterialButton>(R.id.btnLesson03).setOnClickListener {
+            startActivity(Intent(this, TextActivity::class.java))
         }
     }
 }
